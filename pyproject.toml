@@ -1,0 +1,3 @@
+[tool.esbonio.sphinx]
+buildCommand = ["sphinx-build", "-M", "dirhtml", "./doc", "./_build"]
+pythonCommand = ["env/Scripts/python.exe"]
